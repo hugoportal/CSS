@@ -1,0 +1,33 @@
+/*
+Descendência ficaria: li a {}
+Pai pra filho ficaria: li > a {} o a tem que estar diretamente abaixo do li
+*/
+
+li > a {
+  color: red;
+}
+
+/*
+Seletor Adjacente
+Estilo em todo h4 que vier logo depois de h1 (h4 que vier imediatamente após um h1
+*/
+h1 + h4 {
+  border-style: dashed;
+}
+
+/*
+Seletor de atributo
+buscar em todos os anchor que tenham o href igual ao informado
+*/
+a[href="/recibo"] {
+  color: orange;
+}
+
+/*
+Colocar Cor em todos os 2º (segundos) li que sejam da listagem do ul
+No lugar do numero pode-se colocar também odd/even.
+*/
+
+li:nth-of-type(2) {
+  color: burlywood;
+}

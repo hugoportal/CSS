@@ -1,0 +1,37 @@
+h1 {
+  color: purple;
+  --background-color: gray;
+  --border-color: yellow;
+  --border-width: 2px;
+  --border-style: solid;
+
+  border: 2px dashed orange;
+}
+/* 
+-- color para todos os elementos da TAG <li>
+li {
+  color: green;
+}
+*/
+
+/* definição para classes */
+.orange-text {
+  color: orangered;
+  font-size: 20px;
+}
+
+.big-text {
+  font-size: 40px;
+}
+
+/* definição para ID */
+#europa-text {
+  font-size: 10px;
+  color: blue;
+}
+
+body {
+  background-image: url("https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TXDGVXPBEVMY5PA2RHRF2EA25Y.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

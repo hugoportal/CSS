@@ -1,0 +1,21 @@
+p {
+  font-family: "Montez", "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1; //espaçamento
+}
+
+/*
+h1 {
+  text-align: center;
+  text-decoration: line-through;
+}
+*/
+h1 {
+  font-family: "Geostar", cursive;
+  /*margin-left: 60px;*/
+  margin: 45px auto 200px auto;
+  width: 15%;
+  border: 2px solid;
+  padding: 10px 20px 10px 10px;
+}
